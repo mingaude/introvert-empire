@@ -1,0 +1,128 @@
+#home {
+    padding: 1em;
+    background-image: url(png.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+h1 {
+  visibility: hidden;
+}
+h2 {
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 2em;
+  padding: 20px 100px;
+  background: url(heading.png) no-repeat; 
+  background-size: 100% 98%;
+}
+#navigation {
+  text-align: right;
+}
+#navigation li {
+  margin: 0 0 20px;
+  }
+#navigation a {
+  display: block;
+  width: 60%;
+  padding: 20px 60px 20px 20px;
+  background-image: url(navigation.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 15px;
+  font-weight: bold;
+}
+#navigation a:hover {
+  width: 98%;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+article {
+  display: block;
+}
+article p {
+  padding: 0 20px;
+  text-align: justify;
+}
+body {
+    margin: 0;
+    background: url(sidebar.png) no-repeat;
+    background-position-x: right;
+    background-size: 25%;
+    font-family: Arial, Helvetica;
+}
+.column {
+    float: left;
+  }
+.column.side {
+    width: 20%;
+}
+.column.middle {
+    width: 56%;
+    margin: 0 2%;
+}
+
+footer {
+  clear: both;
+  display: block;
+  height: 100px;
+  background-color: rgba(77, 76, 76, 0.822)
+}
+.footerstuff {
+  float: left;
+  width: 33.33%;
+}
+#tinylinks a {
+  color: white;
+}
+#tinylinks ul {
+  padding: 5px 50px 0 90px;
+  margin: 0;
+}
+img {
+  display: inline-block;
+  padding: 0 25%;
+}
+.button {
+  padding: 4px 15px;
+  background-color:  rgba(126, 247, 247, 0.459);
+  border-color: black;
+  font-weight: bold;
+  font-size: 1em;
+  color: white;
+}
+input, textarea {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.726);
+}
+textarea {
+  font-size: 0.9em;
+}
+label {
+  display: block;
+  padding: 10px 5px;
+  width: 70%;
+  background-color: rgba(77, 76, 76, 0.329);
+  font-size: 1em;
+  color: white;
+}
+
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+    #home {
+      background-size: 100% 100%;
+    }
+    body {
+      background-image: none;
+    }
+  }
+ 
